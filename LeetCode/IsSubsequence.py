@@ -14,7 +14,6 @@ class Solution(object):
             if pointer == len(s):
                 return True
         return False
-
 string1 = 'b'
 string2 = 'abcd'
 print(Solution().isSubsequence(string1, string2))
